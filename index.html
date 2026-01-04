@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Dinuka Wickramarathne - Data Scientist">
+    <title>Dinuka Wickramarathne | Data Scientist</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Dinuka Wickramarathne</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Dinuka Wickramarathne</h1>
+                <h2>Data Scientist</h2>
+                <p class="tagline"><span id="typewriter"></span><span class="cursor">|</span></p>
+                
+                <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                
+                <div class="social-links hero-socials" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://www.linkedin.com/in/dinuka-wickramarathne-28a895233/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/DinukaS7" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:dinukasw7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="images/profile.jpg" alt="Dinuka Wickramarathne" class="floating-img" onerror="this.src='https://via.placeholder.com/350x350?text=Dinuka'">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                    I am an undergraduate student at the Faculty of Applied Sciences, South Eastern University of Sri Lanka, specializing in Computer Science. My academic background includes a strong foundation in Mathematics, Statistics, and Computer Science, which has sparked my growing interest in the field of Data Science. Currently, I am actively building my skills in data analysis, machine learning, and data visualization through self study and practical projects. I am passionate about turning data into actionable insights and aspire to pursue a professional career in Data Science, where I can apply analytical thinking and technical expertise to solve real world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="education-card" data-aos="fade-left" data-aos-duration="800">
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="edu-details">
+                    <h3>B.Sc (Hons) in Computer Science</h3>
+                    <p class="institution">Faculty of Applied Sciences – South Eastern University of Sri Lanka</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-stack" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="0">
+                    <img src="images/python.png" alt="Python" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fab fa-python fallback-icon" style="display:none; font-size: 3rem; color: #3776AB;"></i>
+                    <span>Python</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="100">
+                    <img src="images/r.png" alt="R" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fab fa-r-project fallback-icon" style="display:none; font-size: 3rem; color: #276DC3;"></i>
+                    <span>R</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="200">
+                    <img src="images/numpy.png" alt="NumPy" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-cube fallback-icon" style="display:none; font-size: 3rem; color: #013243;"></i>
+                    <span>NumPy</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="300">
+                    <img src="images/pandas.png" alt="Pandas" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-table fallback-icon" style="display:none; font-size: 3rem; color: #150458;"></i>
+                    <span>Pandas</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="400">
+                    <img src="images/ml.png" alt="Machine Learning" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-brain fallback-icon" style="display:none; font-size: 3rem; color: #F7DF1E;"></i>
+                    <span>Machine Learning</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="500">
+                    <img src="images/deep-learning.png" alt="Deep Learning" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-network-wired fallback-icon" style="display:none; font-size: 3rem; color: #FF6F00;"></i>
+                    <span>Deep Learning</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="600">
+                    <img src="images/sql.png" alt="SQL" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-database fallback-icon" style="display:none; font-size: 3rem; color: #00758F;"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="700">
+                    <img src="images/cloud.png" alt="Cloud Computing" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-cloud fallback-icon" style="display:none; font-size: 3rem; color: #EC912D;"></i>
+                    <span>Cloud Computing</span>
+                </div>
+                <div class="tech-item" data-aos="flip-left" data-aos-delay="800">
+                    <img src="images/powerbi.png" alt="Power BI" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+                    <i class="fas fa-chart-bar fallback-icon" style="display:none; font-size: 3rem; color: #F2C811;"></i>
+                    <span>Power BI</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="0">
+                    <h3>Customer Churn Prediction</h3>
+                    <p class="project-desc">
+                        An end-to-end system predicting customer churn by comparing five different classifiers (including Random Forest and SVM). Features a deployed Streamlit dashboard for real-time risk assessment and business logic implementation.
+                    </p>
+                    <div class="project-tools">
+                        <span class="badge">Python</span>
+                        <span class="badge">Scikit-Learn</span>
+                        <span class="badge">Streamlit</span>
+                    </div>
+                    <a href="https://github.com/DinukaS7/Customer-Churn-Prediction" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Project</a>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Transaction Fraud Detection</h3>
+                    <p class="project-desc">
+                        AI-powered financial fraud detection system deployed on Azure. Handles class imbalance using weighted loss and identifies suspicious banking transactions in real-time through an interactive web interface.
+                    </p>
+                    <div class="project-tools">
+                        <span class="badge">Azure</span>
+                        <span class="badge">Scikit-Learn</span>
+                        <span class="badge">Imbalanced-Learn</span>
+                    </div>
+                    <a href="https://github.com/DinukaS7/Transaction-fraud-detection" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Project</a>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Rice Leaf Disease Detection</h3>
+                    <p class="project-desc">
+                        Deep learning project using Convolutional Neural Networks (CNNs) to classify rice leaf images into 6 categories (e.g., Brown Spot, Blast). Aids farmers in early disease detection and sustainable agriculture.
+                    </p>
+                    <div class="project-tools">
+                        <span class="badge">TensorFlow/Keras</span>
+                        <span class="badge">OpenCV</span>
+                        <span class="badge">Deep Learning</span>
+                    </div>
+                    <a href="https://github.com/DinukaS7/Rice-Leaf-Disease-Detection-Using-CNN" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Project</a>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>RAG University Assistant</h3>
+                    <p class="project-desc">
+                        A Retrieval-Augmented Generation (RAG) application utilizing LangChain and Mistral-7B LLM. Allows users to ask natural language questions and retrieves precise answers from the University Handbook PDF.
+                    </p>
+                    <div class="project-tools">
+                        <span class="badge">LangChain</span>
+                        <span class="badge">HuggingFace</span>
+                        <span class="badge">ChromaDB</span>
+                    </div>
+                    <a href="https://github.com/DinukaS7/RAG-Application-for-a-pdf-file" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Project</a>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3>AI Desktop Chat App</h3>
+                    <p class="project-desc">
+                        A lightweight desktop chatbot built with Python and Tkinter, powered by LiteLLM and OpenAI API. Provides instant AI responses in a custom graphical user interface.
+                    </p>
+                    <div class="project-tools">
+                        <span class="badge">Python</span>
+                        <span class="badge">Tkinter</span>
+                        <span class="badge">OpenAI API</span>
+                    </div>
+                    <a href="https://github.com/DinukaS7/LiteLLM-Chatbot" target="_blank" class="btn-sm"><i class="fab fa-github"></i> View Project</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white" data-aos="fade-down">Get In Touch</h2>
+            <div class="contact-wrapper">
+                
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+94 771 788 365</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>dinukasw7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Dinuka Wickramarathne. All Rights Reserved.</p>
+            <div class="social-links footer-socials">
+                <a href="https://www.linkedin.com/in/dinuka-wickramarathne-28a895233/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/DinukaS7" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:dinukasw7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    // Wait for the entire page (images & styles) to load before starting animations
+    window.addEventListener('load', function() {
+        
+        // 1. Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+        });
+
+        // 2. Typewriter Effect
+        const text = "Turning data into actionable insights";
+        const typewriterElement = document.getElementById("typewriter");
+        
+        // Only run if the element exists to avoid errors
+        if (typewriterElement) {
+            let index = 0;
+            function typeWriter() {
+                if (index < text.length) {
+                    typewriterElement.innerHTML += text.charAt(index);
+                    index++;
+                    setTimeout(typeWriter, 50);
+                }
+            }
+            setTimeout(typeWriter, 1000);
+        }
+    });
+
+    // 3. Mobile Navigation Logic
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    if (hamburger) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+    }
+
+    if (navItems) {
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    const icon = hamburger.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+        });
+    }
+
+    // 4. Form Submission Placeholder
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Thank you for your message! This is a demo form.');
+            contactForm.reset();
+        });
+    }
+</script>
+    
+</body>
+</html>
