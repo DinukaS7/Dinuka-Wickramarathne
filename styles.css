@@ -321,20 +321,21 @@ h1, h2, h3, h4 {
     font-weight: 500;
 }
 
-/* --- Contact Section --- */
-/* Updated to center content since form is gone */
-.centered-wrapper {
+/* --- Contact Section (Updated) --- */
+.contact-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center; /* Vertically align items */
+}
+
+.contact-info, .contact-text-area {
+    flex: 1;
+    min-width: 300px;
 }
 
 .contact-info {
-    background: rgba(255,255,255,0.05);
-    padding: 40px;
-    border-radius: 12px;
-    display: inline-block; /* Helps in centering */
+    padding: 20px; /* Reduced padding slightly */
 }
 
 .info-item {
@@ -350,6 +351,27 @@ h1, h2, h3, h4 {
     margin-right: 25px;
     width: 40px;
     text-align: center;
+}
+
+/* New Text Area Styles */
+.contact-text-area {
+    background: rgba(255,255,255,0.05); /* Subtle background */
+    padding: 35px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-text-area h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+
+.contact-text-area p {
+    margin-bottom: 25px;
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.7;
 }
 
 /* --- Footer --- */
@@ -413,4 +435,8 @@ footer {
         align-items: center;
     }
     .btn-secondary { margin-left: 0; }
+    
+    .contact-text-area {
+        text-align: center;
+    }
 }
